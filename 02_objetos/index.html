@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>02_objetos</title>
 </head>
 <body>
     <script>
-        const familia = [true, 45, "Jonathan", 17];
-        console.log(familia.length);
-        console.log(familia[0]);
-        const colega = ["Paulo", 45, "Salvador"]
+        const carro = {
+            marca: "vw",
+            preco: 1000,
+            andar: function andar() {
+                console.log("Andando...")
+            }
+        }
+
+        console.log(carro.marca);
+        console.log(carro.andar());
     </script>
 </body>
 </html>
